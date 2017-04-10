@@ -56,7 +56,8 @@
 			Tags{ "LightMode" = "ForwardBase" }
 			cull back
 			lighting on
-	
+			Blend SrcAlpha OneMinusSrcAlpha
+			
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
